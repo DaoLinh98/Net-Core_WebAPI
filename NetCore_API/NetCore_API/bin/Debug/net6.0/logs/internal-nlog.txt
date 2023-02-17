@@ -1,0 +1,14 @@
+2023-02-16 11:31:15.4601 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'layout'='${longdate} ${level:uppercase=true} ${message}' for element 'nlog'
+2023-02-16 11:31:15.4810 Info Message Template Auto Format enabled
+2023-02-16 11:31:15.5207 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-16 11:31:15.5207 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Unrecognized value 'expression'='0 */5 * * * ?' for element 'time'
+2023-02-16 11:31:15.5207 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create TimeSource of type: Crontab
+ ---> System.ArgumentException: TimeSource type-alias is unknown: 'Crontab'
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String classType, INamedItemFactory`2 factory)
+   --- End of inner exception stack trace ---
+2023-02-16 11:31:15.8166 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=D:\WORK_SPACE\DOT_NET_CORE\NetCore_API\NetCore_API\bin\Debug\net6.0\NLog.config
+2023-02-16 11:31:16.0598 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=D:\WORK_SPACE\DOT_NET_CORE\NetCore_API\NetCore_API\bin\Debug\net6.0\NLog.config
+2023-02-16 11:31:16.2282 Info FileTarget: Pattern {#} is missing in ArchiveFileName `D:\WORK_SPACE\DOT_NET_CORE\NetCore_API\NetCore_API\Logs\internallog_2023-02-16.txt.zip` (Fallback to dynamic wildcard)
+2023-02-16 11:31:16.2604 Info FileTarget(Name=logfile): Deleting old archive file: 'D:\WORK_SPACE\DOT_NET_CORE\NetCore_API\NetCore_API\Logs\internallog_2023-02-16.txt.zip'.
+2023-02-16 11:31:16.2659 Info FileTarget(Name=logfile): Archiving D:\WORK_SPACE\DOT_NET_CORE\NetCore_API\NetCore_API\Logs\internallog.txt to D:\WORK_SPACE\DOT_NET_CORE\NetCore_API\NetCore_API\Logs\internallog_2023-02-16.txt.zip

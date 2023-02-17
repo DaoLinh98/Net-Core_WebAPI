@@ -1,0 +1,9 @@
+2023-02-15 17:09:06.4750 Info Message Template Auto Format enabled
+2023-02-15 17:09:06.4832 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-15 17:09:06.5105 Info Registered target NLog.Targets.FileTarget(Name=errorLogFile)
+2023-02-15 17:09:06.5105 Info Registered target NLog.Targets.FileTarget(Name=warnLogFile)
+2023-02-15 17:09:06.5105 Info Registered target NLog.Targets.FileTarget(Name=infoLogFile)
+2023-02-15 17:09:06.5105 Info Registered target NLog.Targets.FileTarget(Name=debugLogFile)
+2023-02-15 17:09:06.5105 Info Registered target NLog.Targets.FileTarget(Name=traceLogFile)
+2023-02-15 17:09:06.5404 Info Validating config: Targets=5, ConfigItems=50, FilePath=D:\WORK_SPACE\DOT_NET_CORE\NetCore_API\NetCore_API\bin\Debug\net6.0\NLog.config
+2023-02-15 17:09:06.7914 Info Validating config: Targets=5, ConfigItems=50, FilePath=D:\WORK_SPACE\DOT_NET_CORE\NetCore_API\NetCore_API\bin\Debug\net6.0\NLog.config

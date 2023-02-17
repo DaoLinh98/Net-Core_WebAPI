@@ -1,0 +1,40 @@
+2023-02-15 17:09:07.0586 Info User profile is available. Using 'C:\Users\dvanlinh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-15 17:09:07.3138 Info Now listening on: https://localhost:7151
+2023-02-15 17:09:07.3138 Info Now listening on: http://localhost:5288
+2023-02-15 17:09:07.3138 Info Application started. Press Ctrl+C to shut down.
+2023-02-15 17:09:07.3138 Info Hosting environment: Development
+2023-02-15 17:09:07.3138 Info Content root path: D:\WORK_SPACE\DOT_NET_CORE\NetCore_API\NetCore_API\
+2023-02-15 17:09:07.8935 Info Request starting HTTP/2 GET https://localhost:7151/swagger/index.html - -
+2023-02-15 17:09:08.3830 Info Request starting HTTP/2 GET https://localhost:7151/_framework/aspnetcore-browser-refresh.js - -
+2023-02-15 17:09:08.3978 Info Request finished HTTP/2 GET https://localhost:7151/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.7514ms
+2023-02-15 17:09:08.3978 Info Request finished HTTP/2 GET https://localhost:7151/swagger/index.html - - - 200 - text/html;charset=utf-8 511.0294ms
+2023-02-15 17:09:08.4554 Info Request starting HTTP/2 GET https://localhost:7151/_vs/browserLink - -
+2023-02-15 17:09:08.4915 Info Request finished HTTP/2 GET https://localhost:7151/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.7426ms
+2023-02-15 17:09:08.8986 Info Request starting HTTP/2 GET https://localhost:7151/swagger/v1/swagger.json - -
+2023-02-15 17:09:09.0478 Info Request finished HTTP/2 GET https://localhost:7151/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 149.2700ms
+2023-02-15 17:09:14.5332 Info Request starting HTTP/2 GET https://localhost:7151/api/Departments - -
+2023-02-15 17:09:14.7313 Info Executing endpoint 'NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API)'
+2023-02-15 17:09:14.7452 Info Route matched with {action = "getAll", controller = "Departments"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAll() on controller NetCore_API.Controllers.DepartmentsController (NetCore_API).
+2023-02-15 17:09:14.9806 Info Executing action method NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API) - Validation state: Valid
+2023-02-15 17:09:14.9806 Info This is a log message from the SampleController.
+2023-02-15 17:09:16.7655 Info Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Depart_Id], [d].[Depart_Name]
+FROM [Departments] AS [d]
+2023-02-15 17:09:16.8065 Info Executed action method NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1821.2992ms.
+2023-02-15 17:09:16.8065 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCore_API.Model.DepartmentRespone, NetCore_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-15 17:09:16.8352 Info Executed action NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API) in 2085.3492ms
+2023-02-15 17:09:16.8352 Info Executed endpoint 'NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API)'
+2023-02-15 17:09:16.8519 Info Request finished HTTP/2 GET https://localhost:7151/api/Departments - - - 200 - application/json;+charset=utf-8 2318.2382ms
+2023-02-15 17:10:34.4341 Info Request starting HTTP/2 GET https://localhost:7151/api/Departments - -
+2023-02-15 17:10:34.4807 Info Executing endpoint 'NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API)'
+2023-02-15 17:10:34.4807 Info Route matched with {action = "getAll", controller = "Departments"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAll() on controller NetCore_API.Controllers.DepartmentsController (NetCore_API).
+2023-02-15 17:10:34.4807 Info Executing action method NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API) - Validation state: Valid
+2023-02-15 17:10:34.4807 Info This is a log message from the SampleController.
+2023-02-15 17:10:34.5066 Info Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Depart_Id], [d].[Depart_Name]
+FROM [Departments] AS [d]
+2023-02-15 17:10:34.5066 Info Executed action method NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 29.5524ms.
+2023-02-15 17:10:34.5066 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCore_API.Model.DepartmentRespone, NetCore_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-15 17:10:34.5066 Info Executed action NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API) in 30.6519ms
+2023-02-15 17:10:34.5066 Info Executed endpoint 'NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API)'
+2023-02-15 17:10:34.5066 Info Request finished HTTP/2 GET https://localhost:7151/api/Departments - - - 200 - application/json;+charset=utf-8 72.0158ms

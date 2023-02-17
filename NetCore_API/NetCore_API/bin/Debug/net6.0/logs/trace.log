@@ -1,0 +1,318 @@
+2023-02-15 17:09:06.9128 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-02-15 17:09:07.0258 Debug Hosting starting
+2023-02-15 17:09:07.0586 Info User profile is available. Using 'C:\Users\dvanlinh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-15 17:09:07.0968 Debug Reading data from file 'C:\Users\dvanlinh\AppData\Local\ASP.NET\DataProtection-Keys\key-66942836-90b5-494a-9389-be410d09bbbb.xml'.
+2023-02-15 17:09:07.1016 Debug Found key {66942836-90b5-494a-9389-be410d09bbbb}.
+2023-02-15 17:09:07.1016 Debug Considering key {66942836-90b5-494a-9389-be410d09bbbb} with expiration date 2023-05-09 07:20:22Z as default key.
+2023-02-15 17:09:07.1016 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-15 17:09:07.1016 Debug Decrypting secret element using Windows DPAPI.
+2023-02-15 17:09:07.1016 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-15 17:09:07.1183 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-02-15 17:09:07.1183 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-02-15 17:09:07.1183 Debug Using key {66942836-90b5-494a-9389-be410d09bbbb} as the default key.
+2023-02-15 17:09:07.1183 Debug Key ring with default key {66942836-90b5-494a-9389-be410d09bbbb} was loaded during application startup.
+2023-02-15 17:09:07.2665 Debug Using development certificate: CN=localhost (Thumbprint: 16B9FE2EB701137257A270EC7A7FBF6AA0145C4B)
+2023-02-15 17:09:07.3138 Info Now listening on: https://localhost:7151
+2023-02-15 17:09:07.3138 Info Now listening on: http://localhost:5288
+2023-02-15 17:09:07.3138 Debug Loaded hosting startup assembly NetCore_API
+2023-02-15 17:09:07.3138 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-02-15 17:09:07.3138 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-02-15 17:09:07.3138 Info Application started. Press Ctrl+C to shut down.
+2023-02-15 17:09:07.3138 Info Hosting environment: Development
+2023-02-15 17:09:07.3138 Info Content root path: D:\WORK_SPACE\DOT_NET_CORE\NetCore_API\NetCore_API\
+2023-02-15 17:09:07.3138 Debug Hosting started
+2023-02-15 17:09:07.3271 Debug Connection id "0HMOF7IMBGHP2" received FIN.
+2023-02-15 17:09:07.3271 Debug Connection id "0HMOF7IMBGHP3" received FIN.
+2023-02-15 17:09:07.3271 Debug Connection id "0HMOF7IMBGHP3" accepted.
+2023-02-15 17:09:07.3271 Debug Connection id "0HMOF7IMBGHP2" accepted.
+2023-02-15 17:09:07.3360 Debug Connection id "0HMOF7IMBGHP3" started.
+2023-02-15 17:09:07.3360 Debug Connection id "0HMOF7IMBGHP2" started.
+2023-02-15 17:09:07.3504 Debug Failed to authenticate HTTPS connection.
+2023-02-15 17:09:07.3504 Debug Failed to authenticate HTTPS connection.
+2023-02-15 17:09:07.3504 Debug Connection id "0HMOF7IMBGHP2" stopped.
+2023-02-15 17:09:07.3504 Debug Connection id "0HMOF7IMBGHP3" stopped.
+2023-02-15 17:09:07.3504 Debug Connection id "0HMOF7IMBGHP2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-15 17:09:07.3504 Debug Connection id "0HMOF7IMBGHP3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-15 17:09:07.7171 Debug Connection id "0HMOF7IMBGHP4" accepted.
+2023-02-15 17:09:07.7171 Debug Connection id "0HMOF7IMBGHP4" started.
+2023-02-15 17:09:07.7880 Debug Connection 0HMOF7IMBGHP4 established using the following protocol: Tls12
+2023-02-15 17:09:07.8379 Trace Connection id "0HMOF7IMBGHP4" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE.
+2023-02-15 17:09:07.8379 Trace Connection id "0HMOF7IMBGHP4" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2023-02-15 17:09:07.8379 Trace Connection id "0HMOF7IMBGHP4" received SETTINGS frame for stream ID 0 with length 30 and flags NONE.
+2023-02-15 17:09:07.8379 Trace Connection id "0HMOF7IMBGHP4" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2023-02-15 17:09:07.8379 Trace Connection id "0HMOF7IMBGHP4" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2023-02-15 17:09:07.8379 Trace Connection id "0HMOF7IMBGHP4" received HEADERS frame for stream ID 1 with length 546 and flags END_STREAM, END_HEADERS, PRIORITY.
+2023-02-15 17:09:07.8789 Trace Connection id "0HMOF7IMBGHP4" received SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2023-02-15 17:09:07.8935 Info Request starting HTTP/2 GET https://localhost:7151/swagger/index.html - -
+2023-02-15 17:09:07.9411 Debug Wildcard detected, all requests with hosts will be allowed.
+2023-02-15 17:09:07.9411 Trace All hosts are allowed.
+2023-02-15 17:09:07.9700 Debug No candidates found for the request path '/swagger/index.html'
+2023-02-15 17:09:07.9700 Debug Request did not match any endpoints
+2023-02-15 17:09:08.2272 Debug Response markup is scheduled to include browser refresh script injection.
+2023-02-15 17:09:08.2272 Trace Connection id "0HMOF7IMBGHP4" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS.
+2023-02-15 17:09:08.3830 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 1 with length 1024 and flags NONE.
+2023-02-15 17:09:08.3830 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 1 with length 1024 and flags NONE.
+2023-02-15 17:09:08.3830 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 1 with length 1024 and flags NONE.
+2023-02-15 17:09:08.3830 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 1 with length 1024 and flags NONE.
+2023-02-15 17:09:08.3830 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 1 with length 993 and flags NONE.
+2023-02-15 17:09:08.3830 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 1 with length 65 and flags NONE.
+2023-02-15 17:09:08.3830 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 1 with length 16 and flags NONE.
+2023-02-15 17:09:08.3830 Trace Connection id "0HMOF7IMBGHP4" received HEADERS frame for stream ID 3 with length 110 and flags END_STREAM, END_HEADERS, PRIORITY.
+2023-02-15 17:09:08.3830 Info Request starting HTTP/2 GET https://localhost:7151/_framework/aspnetcore-browser-refresh.js - -
+2023-02-15 17:09:08.3830 Debug Response markup was updated to include browser refresh script injection.
+2023-02-15 17:09:08.3978 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM.
+2023-02-15 17:09:08.3978 Trace Connection id "0HMOF7IMBGHP4" sending HEADERS frame for stream ID 3 with length 60 and flags END_HEADERS.
+2023-02-15 17:09:08.3978 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 3 with length 11992 and flags NONE.
+2023-02-15 17:09:08.3978 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM.
+2023-02-15 17:09:08.3978 Info Request finished HTTP/2 GET https://localhost:7151/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.7514ms
+2023-02-15 17:09:08.3978 Info Request finished HTTP/2 GET https://localhost:7151/swagger/index.html - - - 200 - text/html;charset=utf-8 511.0294ms
+2023-02-15 17:09:08.4554 Trace Connection id "0HMOF7IMBGHP4" received HEADERS frame for stream ID 5 with length 58 and flags END_STREAM, END_HEADERS, PRIORITY.
+2023-02-15 17:09:08.4554 Info Request starting HTTP/2 GET https://localhost:7151/_vs/browserLink - -
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending HEADERS frame for stream ID 5 with length 119 and flags END_HEADERS.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 9986 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4823 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 10240 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 403 and flags NONE.
+2023-02-15 17:09:08.4915 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM.
+2023-02-15 17:09:08.4915 Info Request finished HTTP/2 GET https://localhost:7151/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.7426ms
+2023-02-15 17:09:08.8986 Trace Connection id "0HMOF7IMBGHP4" received HEADERS frame for stream ID 7 with length 67 and flags END_STREAM, END_HEADERS, PRIORITY.
+2023-02-15 17:09:08.8986 Info Request starting HTTP/2 GET https://localhost:7151/swagger/v1/swagger.json - -
+2023-02-15 17:09:08.8986 Trace All hosts are allowed.
+2023-02-15 17:09:08.8986 Debug No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-15 17:09:08.8986 Debug Request did not match any endpoints
+2023-02-15 17:09:09.0478 Trace Connection id "0HMOF7IMBGHP4" sending HEADERS frame for stream ID 7 with length 35 and flags END_HEADERS.
+2023-02-15 17:09:09.0478 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 7 with length 15005 and flags NONE.
+2023-02-15 17:09:09.0478 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM.
+2023-02-15 17:09:09.0478 Info Request finished HTTP/2 GET https://localhost:7151/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 149.2700ms
+2023-02-15 17:09:14.5332 Trace Connection id "0HMOF7IMBGHP4" received HEADERS frame for stream ID 9 with length 34 and flags END_STREAM, END_HEADERS, PRIORITY.
+2023-02-15 17:09:14.5332 Info Request starting HTTP/2 GET https://localhost:7151/api/Departments - -
+2023-02-15 17:09:14.5332 Trace All hosts are allowed.
+2023-02-15 17:09:14.5332 Debug 1 candidate(s) found for the request path '/api/Departments'
+2023-02-15 17:09:14.5432 Debug Endpoint 'NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API)' with route pattern 'api/Departments' is valid for the request path '/api/Departments'
+2023-02-15 17:09:14.5432 Debug Request matched endpoint 'NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API)'
+2023-02-15 17:09:14.5432 Debug Static files was skipped as the request already matched an endpoint.
+2023-02-15 17:09:14.7313 Debug AuthenticationScheme: Bearer was not authenticated.
+2023-02-15 17:09:14.7313 Info Executing endpoint 'NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API)'
+2023-02-15 17:09:14.7452 Info Route matched with {action = "getAll", controller = "Departments"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAll() on controller NetCore_API.Controllers.DepartmentsController (NetCore_API).
+2023-02-15 17:09:14.7452 Debug Execution plan of authorization filters (in the following order): None
+2023-02-15 17:09:14.7452 Debug Execution plan of resource filters (in the following order): None
+2023-02-15 17:09:14.7452 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-02-15 17:09:14.7452 Debug Execution plan of exception filters (in the following order): None
+2023-02-15 17:09:14.7452 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-02-15 17:09:14.7452 Debug Executing controller factory for controller NetCore_API.Controllers.DepartmentsController (NetCore_API)
+2023-02-15 17:09:14.9548 Debug An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-15 17:09:14.9806 Debug Executed controller factory for controller NetCore_API.Controllers.DepartmentsController (NetCore_API)
+2023-02-15 17:09:14.9806 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-02-15 17:09:14.9806 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-02-15 17:09:14.9806 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-02-15 17:09:14.9806 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-02-15 17:09:14.9806 Info Executing action method NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API) - Validation state: Valid
+2023-02-15 17:09:14.9806 Info This is a log message from the SampleController.
+2023-02-15 17:09:15.5481 Debug The index {'User_Id'} was not created on entity type 'Assignment' as the properties are already covered by the index {'User_Id', 'Asset_Id'}.
+2023-02-15 17:09:15.8812 Debug Entity Framework Core 7.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2023-02-15 17:09:15.9775 Debug Compiling query expression: 
+'DbSet<Department>()
+    .Select(de => new DepartmentRespone{ 
+        Depart_Id = de.Depart_Id, 
+        Depart_Name = de.Depart_Name 
+    }
+    )'
+2023-02-15 17:09:16.2717 Debug Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<DepartmentRespone>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            Depart_Id -> 0
+            Depart_Name -> 1
+        SELECT d.Depart_Id, d.Depart_Name
+        FROM Departments AS d), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, DepartmentRespone>, 
+    NetCore_API.Data.DataContext, 
+    False, 
+    False, 
+    True
+)'
+2023-02-15 17:09:16.3077 Debug Creating DbCommand for 'ExecuteReader'.
+2023-02-15 17:09:16.3077 Debug Creating DbConnection.
+2023-02-15 17:09:16.3523 Debug Created DbConnection. (39ms).
+2023-02-15 17:09:16.3523 Debug Created DbCommand for 'ExecuteReader' (50ms).
+2023-02-15 17:09:16.3523 Debug Initialized DbCommand for 'ExecuteReader' (57ms).
+2023-02-15 17:09:16.3686 Debug Opening connection to database 'NetCoreDB' on server 'DVANLINH'.
+2023-02-15 17:09:16.7181 Debug Opened connection to database 'NetCoreDB' on server 'DVANLINH'.
+2023-02-15 17:09:16.7261 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Depart_Id], [d].[Depart_Name]
+FROM [Departments] AS [d]
+2023-02-15 17:09:16.7655 Info Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Depart_Id], [d].[Depart_Name]
+FROM [Departments] AS [d]
+2023-02-15 17:09:16.7822 Debug Closing data reader to 'NetCoreDB' on server 'DVANLINH'.
+2023-02-15 17:09:16.7912 Debug A data reader for 'NetCoreDB' on server 'DVANLINH' is being disposed after spending 20ms reading results.
+2023-02-15 17:09:16.7912 Debug Closing connection to database 'NetCoreDB' on server 'DVANLINH'.
+2023-02-15 17:09:16.8065 Debug Closed connection to database 'NetCoreDB' on server 'DVANLINH' (11ms).
+2023-02-15 17:09:16.8065 Info Executed action method NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1821.2992ms.
+2023-02-15 17:09:16.8065 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-02-15 17:09:16.8065 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-02-15 17:09:16.8065 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-02-15 17:09:16.8065 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-02-15 17:09:16.8065 Trace Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-02-15 17:09:16.8065 Trace Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-02-15 17:09:16.8065 Trace Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-02-15 17:09:16.8065 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-02-15 17:09:16.8065 Debug No information found on request to perform content negotiation.
+2023-02-15 17:09:16.8065 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-02-15 17:09:16.8065 Debug Attempting to select the first formatter in the output formatters list which can write the result.
+2023-02-15 17:09:16.8065 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-02-15 17:09:16.8065 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCore_API.Model.DepartmentRespone, NetCore_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-15 17:09:16.8290 Trace Connection id "0HMOF7IMBGHP4" sending HEADERS frame for stream ID 9 with length 66 and flags END_HEADERS.
+2023-02-15 17:09:16.8290 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 9 with length 146 and flags NONE.
+2023-02-15 17:09:16.8290 Trace After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-02-15 17:09:16.8290 Trace Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-02-15 17:09:16.8290 Trace Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-02-15 17:09:16.8290 Trace Connection id "0HMOF7IMBGHP4" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2023-02-15 17:09:16.8352 Info Executed action NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API) in 2085.3492ms
+2023-02-15 17:09:16.8352 Info Executed endpoint 'NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API)'
+2023-02-15 17:09:16.8352 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM.
+2023-02-15 17:09:16.8352 Debug 'DataContext' disposed.
+2023-02-15 17:09:16.8352 Debug Disposing connection to database 'NetCoreDB' on server 'DVANLINH'.
+2023-02-15 17:09:16.8519 Debug Disposed connection to database '' on server '' (3ms).
+2023-02-15 17:09:16.8519 Info Request finished HTTP/2 GET https://localhost:7151/api/Departments - - - 200 - application/json;+charset=utf-8 2318.2382ms
+2023-02-15 17:10:34.4341 Trace Connection id "0HMOF7IMBGHP4" received HEADERS frame for stream ID 11 with length 34 and flags END_STREAM, END_HEADERS, PRIORITY.
+2023-02-15 17:10:34.4341 Trace Connection id "0HMOF7IMBGHP4" received PING frame for stream ID 0 with length 8 and flags NONE.
+2023-02-15 17:10:34.4341 Info Request starting HTTP/2 GET https://localhost:7151/api/Departments - -
+2023-02-15 17:10:34.4341 Trace All hosts are allowed.
+2023-02-15 17:10:34.4341 Trace Connection id "0HMOF7IMBGHP4" sending PING frame for stream ID 0 with length 8 and flags ACK.
+2023-02-15 17:10:34.4451 Debug 1 candidate(s) found for the request path '/api/Departments'
+2023-02-15 17:10:34.4451 Debug Endpoint 'NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API)' with route pattern 'api/Departments' is valid for the request path '/api/Departments'
+2023-02-15 17:10:34.4451 Debug Request matched endpoint 'NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API)'
+2023-02-15 17:10:34.4807 Debug Static files was skipped as the request already matched an endpoint.
+2023-02-15 17:10:34.4807 Debug AuthenticationScheme: Bearer was not authenticated.
+2023-02-15 17:10:34.4807 Info Executing endpoint 'NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API)'
+2023-02-15 17:10:34.4807 Info Route matched with {action = "getAll", controller = "Departments"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAll() on controller NetCore_API.Controllers.DepartmentsController (NetCore_API).
+2023-02-15 17:10:34.4807 Debug Execution plan of authorization filters (in the following order): None
+2023-02-15 17:10:34.4807 Debug Execution plan of resource filters (in the following order): None
+2023-02-15 17:10:34.4807 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-02-15 17:10:34.4807 Debug Execution plan of exception filters (in the following order): None
+2023-02-15 17:10:34.4807 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-02-15 17:10:34.4807 Debug Executing controller factory for controller NetCore_API.Controllers.DepartmentsController (NetCore_API)
+2023-02-15 17:10:34.4807 Debug Executed controller factory for controller NetCore_API.Controllers.DepartmentsController (NetCore_API)
+2023-02-15 17:10:34.4807 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-02-15 17:10:34.4807 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-02-15 17:10:34.4807 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-02-15 17:10:34.4807 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-02-15 17:10:34.4807 Info Executing action method NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API) - Validation state: Valid
+2023-02-15 17:10:34.4807 Info This is a log message from the SampleController.
+2023-02-15 17:10:34.4976 Debug Entity Framework Core 7.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2023-02-15 17:10:34.5066 Debug Creating DbCommand for 'ExecuteReader'.
+2023-02-15 17:10:34.5066 Debug Creating DbConnection.
+2023-02-15 17:10:34.5066 Debug Created DbConnection. (0ms).
+2023-02-15 17:10:34.5066 Debug Created DbCommand for 'ExecuteReader' (0ms).
+2023-02-15 17:10:34.5066 Debug Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-02-15 17:10:34.5066 Debug Opening connection to database 'NetCoreDB' on server 'DVANLINH'.
+2023-02-15 17:10:34.5066 Debug Opened connection to database 'NetCoreDB' on server 'DVANLINH'.
+2023-02-15 17:10:34.5066 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Depart_Id], [d].[Depart_Name]
+FROM [Departments] AS [d]
+2023-02-15 17:10:34.5066 Info Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[Depart_Id], [d].[Depart_Name]
+FROM [Departments] AS [d]
+2023-02-15 17:10:34.5066 Debug Closing data reader to 'NetCoreDB' on server 'DVANLINH'.
+2023-02-15 17:10:34.5066 Debug A data reader for 'NetCoreDB' on server 'DVANLINH' is being disposed after spending 0ms reading results.
+2023-02-15 17:10:34.5066 Debug Closing connection to database 'NetCoreDB' on server 'DVANLINH'.
+2023-02-15 17:10:34.5066 Debug Closed connection to database 'NetCoreDB' on server 'DVANLINH' (0ms).
+2023-02-15 17:10:34.5066 Info Executed action method NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 29.5524ms.
+2023-02-15 17:10:34.5066 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-02-15 17:10:34.5066 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-02-15 17:10:34.5066 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-02-15 17:10:34.5066 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-02-15 17:10:34.5066 Trace Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-02-15 17:10:34.5066 Trace Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-02-15 17:10:34.5066 Trace Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-02-15 17:10:34.5066 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-02-15 17:10:34.5066 Debug No information found on request to perform content negotiation.
+2023-02-15 17:10:34.5066 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-02-15 17:10:34.5066 Debug Attempting to select the first formatter in the output formatters list which can write the result.
+2023-02-15 17:10:34.5066 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-02-15 17:10:34.5066 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCore_API.Model.DepartmentRespone, NetCore_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-15 17:10:34.5066 Trace Connection id "0HMOF7IMBGHP4" sending HEADERS frame for stream ID 11 with length 34 and flags END_HEADERS.
+2023-02-15 17:10:34.5066 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 11 with length 146 and flags NONE.
+2023-02-15 17:10:34.5066 Trace After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-02-15 17:10:34.5066 Trace Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-02-15 17:10:34.5066 Trace Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-02-15 17:10:34.5066 Info Executed action NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API) in 30.6519ms
+2023-02-15 17:10:34.5066 Info Executed endpoint 'NetCore_API.Controllers.DepartmentsController.getAll (NetCore_API)'
+2023-02-15 17:10:34.5066 Trace Connection id "0HMOF7IMBGHP4" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM.
+2023-02-15 17:10:34.5066 Debug 'DataContext' disposed.
+2023-02-15 17:10:34.5066 Debug Disposing connection to database 'NetCoreDB' on server 'DVANLINH'.
+2023-02-15 17:10:34.5066 Debug Disposed connection to database '' on server '' (0ms).
+2023-02-15 17:10:34.5066 Info Request finished HTTP/2 GET https://localhost:7151/api/Departments - - - 200 - application/json;+charset=utf-8 72.0158ms
+2023-02-15 17:10:34.5066 Trace Connection id "0HMOF7IMBGHP4" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
