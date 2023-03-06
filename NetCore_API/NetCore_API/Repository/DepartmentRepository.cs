@@ -14,6 +14,7 @@ namespace NetCore_API.Repository
         void add(DepartmentRequest departModel);
         void updateById(int id, DepartmentRespone departVM);
         void deleteById(int id);
+        int? getByUserName(string userName);
     }
     public class DepartmentRepository : IDepartmentRepository
     {
@@ -47,6 +48,12 @@ namespace NetCore_API.Repository
                 _context.SaveChanges();
             }
         }
+
+        public int? getByUserName(string userName)
+        {
+            throw new NotImplementedException();
+        }
+
         public void updateById(int id, DepartmentRespone departVM)
         {
             var depart = _context.Departments.FirstOrDefault(de => de.Depart_Id == id);

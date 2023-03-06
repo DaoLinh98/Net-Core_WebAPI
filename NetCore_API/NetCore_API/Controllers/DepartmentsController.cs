@@ -39,8 +39,8 @@ namespace NetCore_API.Controllers
             }
             catch (Exception ex)
             {
-                Logger.Error(ex.Message.ToString());
-               return BadRequest(ex.Message);
+                Logger.Error($"########### {ex.Message.ToString()} ############");
+                return BadRequest(ex.Message);
             }
         }
 
@@ -74,9 +74,10 @@ namespace NetCore_API.Controllers
                 return Ok(_departmentService.getAllWithUsers());
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError);
+                Logger.Error($"########### {ex.Message.ToString()} ############");
+                return BadRequest(ex.Message);
             }
         }
 
@@ -88,9 +89,10 @@ namespace NetCore_API.Controllers
                 return Ok(_departmentService.getById(id));
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError);
+                Logger.Error($"########### {ex.Message.ToString()} ############");
+                return BadRequest(ex.Message);
             }
         }
 
@@ -103,10 +105,7 @@ namespace NetCore_API.Controllers
                 return NoContent();
 
             }
-            catch (Exception)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError);
-            }
+            catch (Exception ex) { Logger.Error($"########### {ex.Message.ToString()} ############"); return BadRequest(ex.Message);     }
         }
 
         [HttpPut("{id}")]
@@ -123,11 +122,7 @@ namespace NetCore_API.Controllers
 
 
             }
-            catch (Exception)
-            {
-
-                return StatusCode(StatusCodes.Status500InternalServerError);
-            }
+            catch (Exception ex) { Logger.Error($"########### {ex.Message.ToString()} ############"); return BadRequest(ex.Message); }
         }
 
         [HttpDelete("{id}")]
@@ -139,10 +134,7 @@ namespace NetCore_API.Controllers
                 return NoContent();
 
             }
-            catch (Exception)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError);
-            }
+            catch (Exception ex) { Logger.Error($"########### {ex.Message.ToString()} ############"); return BadRequest(ex.Message); }
         }
     }
 }
