@@ -16,6 +16,7 @@ namespace NetCore_API.Repository
         void updateById(int id, UserRespone userVM);
         void deleteById(int id);
         List<UserRespone> pagingAndSorting(int pageIndex, int pageSize, string sortBy);
+        public int? getByUserName(string userName);
     }
     public class UserRepository : IUserRepository
     {
@@ -63,7 +64,6 @@ namespace NetCore_API.Repository
             //    DateOfbirth= u.DateOfbirth,
             //    Depart_Id = u.Department.Depart_Id,
             //});
-
             var users = _dapper.CreateConnection().Query<User>("SELECT * FROM Users");
             return _mapper.Map<List<UserRespone>>(users);
         }
@@ -91,6 +91,11 @@ namespace NetCore_API.Repository
 
             }
             return null;
+        }
+
+        public int? getByUserName(string userName)
+        {
+            throw new NotImplementedException();
         }
 
         public List<UserRespone> pagingAndSorting(int pageIndex, int pageSize, string sortBy)

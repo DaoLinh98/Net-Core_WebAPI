@@ -10,14 +10,21 @@ namespace NetCore_API.Model
         //Relationship
     
     }
+    public class AssetResponseAll
+    {
+        public int Asset_Id { get; set; }
+        public string Asset_Name { get; set; }
+        //Relationship
+
+    }
 
 
-public class AssetRespone
+    public class AssetRespone
     {
      
         public int Asset_Id { get; set; }
         public string Asset_Name { get; set; }
-        public List<UserRespone> userVMs { get; set; } = new List<UserRespone>();
+        public List<UserRespone>? userVMs { get; set; } = new List<UserRespone>();
       
     }
 }

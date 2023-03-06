@@ -5,6 +5,7 @@ using NetCore_API.Data;
 using NetCore_API.Model;
 using NetCore_API.Repository;
 using NetCore_API.Service;
+using NLog;
 
 namespace NetCore_API.Controllers
 {
@@ -15,7 +16,7 @@ namespace NetCore_API.Controllers
 
         private readonly IAssetService _assetService;
         private readonly IAssetRepository _assetRpository;
-
+        private static readonly NLog.ILogger Logger = LogManager.GetCurrentClassLogger();
         public AssetsController(IAssetService assetService, IAssetRepository assetRpository)
         {
             _assetService = assetService;
@@ -31,17 +32,40 @@ namespace NetCore_API.Controllers
                 _assetService.add(assetModel);
                 return Ok();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError);
+                Logger.Error($"########### {ex.Message.ToString()} ############");
+                return BadRequest(ex.Message);
             }
         }
 
 
-        [HttpGet("{id}")]
-        public IActionResult getById(int id)
+        [HttpGet()]
+        public IActionResult getAll(int id)
         {
-            return Ok(_assetRpository.getById(id));  
+            try
+            {
+                return Ok(_assetService.getAll());
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"########### {ex.Message.ToString()} ############");
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult getById(int? id)
+        {
+            try
+            {
+                return Ok(_assetRpository.getById(id));
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"########### {ex.Message.ToString()} ############");
+                return BadRequest(ex.Message);
+            }
         }
 
     }

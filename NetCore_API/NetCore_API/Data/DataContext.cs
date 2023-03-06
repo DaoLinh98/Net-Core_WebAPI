@@ -9,6 +9,9 @@ namespace NetCore_API.Data
           : base(options)
         {
         }
+        public DataContext() : base()
+        {
+        }
         public DbSet<Account> Accounts { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Department> Departments { get; set; }

@@ -29,4 +29,8 @@
     <PackageReference Include="Topshelf.NLog" Version="4.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="UnitTestting\" />
+  </ItemGroup>
+
 </Project>
