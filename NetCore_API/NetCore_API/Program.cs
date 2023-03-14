@@ -29,6 +29,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IAssetRepository, AssetRepository>();
 builder.Services.AddScoped<IAssetService, AssetService>();
+builder.Services.AddScoped<IAssignmentRepository, AssignmentRepository>();
 //**Add services to the container.
 // Add automapping
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
